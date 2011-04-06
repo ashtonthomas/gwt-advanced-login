@@ -38,6 +38,16 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
     <url-pattern>/login/login.rpc</url-pattern>
   </servlet-mapping>
   
+  <servlet-mapping>
+    <servlet-name>authentication</servlet-name>
+    <url-pattern>/module_a/login.rpc</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>authentication</servlet-name>
+    <url-pattern>/module_b/login.rpc</url-pattern>
+  </servlet-mapping>
+  
   <welcome-file-list>
 	<welcome-file>Default.html</welcome-file>
   </welcome-file-list>

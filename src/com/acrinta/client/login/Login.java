@@ -1,5 +1,7 @@
 package com.acrinta.client.login;
 
+import com.acrinta.client.login.request.LoginService;
+import com.acrinta.client.login.request.LoginServiceAsync;
 import com.acrinta.client.login.view.LoginView;
 import com.acrinta.client.module_a.resource.Resource;
 import com.acrinta.shared.UserDto;

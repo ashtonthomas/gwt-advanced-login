@@ -1,0 +1,2 @@
+serviceClass: com.acrinta.client.login.request.LoginService
+path: 77279413E7744AB7FC612A2A26989316.gwt.rpc

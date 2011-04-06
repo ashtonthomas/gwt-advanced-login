@@ -2,11 +2,15 @@ package com.acrinta.server;
 
 import javax.servlet.http.HttpSession;
 
-import com.acrinta.client.login.LoginService;
+import com.acrinta.client.login.request.LoginService;
 import com.acrinta.shared.UserDto;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
 public class AuthServlet extends AdvancedServlet implements LoginService {
+	
+	public void logout(){
+		setUser(null);
+	}
 
 	public UserDto isAuthenticated() {
 		return getUser(); //helper method from AdvancedServlet
