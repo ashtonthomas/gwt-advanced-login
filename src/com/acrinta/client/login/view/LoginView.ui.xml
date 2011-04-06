@@ -28,5 +28,12 @@
 				</td>
 			</tr>
 		</table>
+		<br/>
+		<br/>
+		<br/>
+		Check it out on GitHub:<br/>
+		<a href="https://github.com/ashtonthomas/GwtAdvancedLogin">GwtAdvancedLogin on GitHub</a><br/>
+		by Ashton Thomas<br/>
+		<a href="http://www.acrinta.com">Acrinta</a>
 	</g:HTMLPanel>
 </ui:UiBinder> 

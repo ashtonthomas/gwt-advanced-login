@@ -4,8 +4,13 @@ by Ashton Thomas (www.acrinta.com)
 This Google Web Toolkit (GWT) application is an example of how to create a separate Login Module 
 which then funnels to one or many other modules that contain the main applicaiton login.
 
+Demo:
+http://gwt-advanced-login.appspot.com
+
 You can use this type of setup to take full control over you login page while not including it
 in your main module.
 
 Please contact me with any comments/suggestions/questions
 gwt@acrinta.com
+
+
