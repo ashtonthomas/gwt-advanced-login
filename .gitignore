@@ -1,0 +1,13 @@
+.DS_Store?
+*.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+war/WEB-INF/lib/*
+war/WEB-INF/classes/*
+war/login/*
+war/module_a/*
+war/module_b/*
+war/deploy/*
+*.class
+extras/*
